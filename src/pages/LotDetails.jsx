@@ -112,7 +112,7 @@ const LotDetails = () => {
  <h2 className="text-3xl mt-6 font-bold text-center mb-12 text-p4">
       Plan d&apos;architecture
     </h2>
- <img src="/images/new/image.jpg" alt="Building" className="mx-auto mb-4 rounded-xl shadow-lg max-w-4xl w-full" />
+ <img src="/images/lots/plan.jpg" alt="Building" className="mx-auto mb-4 rounded-xl shadow-lg max-w-4xl w-full" />
  <h1 className="text-3xl mt-6 font-bold text-center mb-12 text-p4">
       Nos Modéles
     </h1>
