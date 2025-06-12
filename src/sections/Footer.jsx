@@ -42,23 +42,24 @@ const Footer = () => {
          {/* src="/images/xora.svg" */}
           <img src="/images/logo.svg" alt="Logo" className="w-32 mb-4" />
           <p className="text-sm text-gray-500 max-w-xs">
-            © {new Date().getFullYear()} Ceatic Immobilier. Tous droits réservés.
+            © {new Date().getFullYear()} EURL BHT Immobilier. Tous droits réservés.
           </p>
         </div>
   
         {/* Liens légaux */}
         <div className="flex flex-col items-center gap-2 text-sm text-gray-500 md:text-right">
-          <a href="/mentions-legales" className="hover:text-p1 transition">Mentions légales</a>
-          <a href="/politique-confidentialite" className="hover:text-p1 transition">Politique de confidentialité</a>
-          <a href="/conditions-utilisation" className="hover:text-p1 transition">Conditions d’utilisation</a>
+          <a  className="hover:text-p1 transition">Mentions légales</a>
+          <a  className="hover:text-p1 transition">Politique de confidentialité</a>
+          <a  className="hover:text-p1 transition">Conditions d’utilisation</a>
         </div>
   
         {/* Réseaux sociaux */}
         <div className="flex justify-center md:justify-end flex-1 gap-4">
           {socials.map(({ id, url, icon, title }) => (
-            <a
+                      //  href={url}
+                          <a
               key={id}
-              href={url}
+
               aria-label={title}
               target="_blank"
               rel="noopener noreferrer"
