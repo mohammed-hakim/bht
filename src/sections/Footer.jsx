@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
   
         {/* Réseaux sociaux */}
-        <div className="flex justify-center md:justify-end flex-1 gap-4">
+        {/* <div className="flex justify-center md:justify-end flex-1 gap-4 flex-wrap">
           {socials.map(({ id, url, icon, title }) => (
                       //  href={url}
                           <a
@@ -65,10 +65,26 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="transition hover:opacity-70"
             >
-              <img src={icon} alt={title} className="w-6 h-6" />
+              <img src={icon} alt={title} className="w- h-6" />
             </a>
           ))}
-        </div>
+        </div> */}
+  <div className="flex flex-wrap justify-center gap-4 md:justify-end flex-1 w-full md:w-auto mt-4 md:mt-0">
+  {socials.map(({ id, url, icon, title }) => (
+    <a
+      key={id}
+      href={url}
+      aria-label={title}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="transition hover:opacity-70 min-w-[44px] flex justify-center"
+    >
+      <img src={icon} alt={title} className="w-6 h-6" />
+    </a>
+  ))}
+</div>
+
+
       </div>
     </div>
   </footer>
