@@ -229,30 +229,30 @@ export const faq = [
     answer:
       "Nos résidences sont idéalement situées, proches des transports, commerces, écoles et services essentiels pour un cadre de vie agréable.",
   },
-  {
-    id: "6",
-    question: "Puis-je visiter un logement témoin ?",
-    answer:
-      "Oui, vous pouvez prendre rendez-vous pour visiter un appartement témoin et apprécier la qualité de finition de nos biens.",
-  },
-  {
-    id: "7",
-    question: "Quelle sécurité est prévue dans la résidence ?",
-    answer:
-      "Nos immeubles sont équipés de systèmes de surveillance, d’accès sécurisé et d’un service de gardiennage selon la résidence.",
-  },
-  {
-    id: "8",
-    question: "Les charges de copropriété sont-elles élevées ?",
-    answer:
-      "Elles sont maîtrisées et couvrent les frais liés à l’entretien, la sécurité, l’ascenseur et les parties communes.",
-  },
-  {
-    id: "9",
-    question: "Comment puis-je réserver un appartement ?",
-    answer:
-      "Il vous suffit de nous contacter via le formulaire ou par téléphone. Un conseiller vous accompagnera dans toutes les démarches.",
-  },
+  // {
+  //   id: "6",
+  //   question: "Puis-je visiter un logement témoin ?",
+  //   answer:
+  //     "Oui, vous pouvez prendre rendez-vous pour visiter un appartement témoin et apprécier la qualité de finition de nos biens.",
+  // },
+  // {
+  //   id: "7",
+  //   question: "Quelle sécurité est prévue dans la résidence ?",
+  //   answer:
+  //     "Nos immeubles sont équipés de systèmes de surveillance, d’accès sécurisé et d’un service de gardiennage selon la résidence.",
+  // },
+  // {
+  //   id: "8",
+  //   question: "Les charges de copropriété sont-elles élevées ?",
+  //   answer:
+  //     "Elles sont maîtrisées et couvrent les frais liés à l’entretien, la sécurité, l’ascenseur et les parties communes.",
+  // },
+  // {
+  //   id: "9",
+  //   question: "Comment puis-je réserver un appartement ?",
+  //   answer:
+  //     "Il vous suffit de nous contacter via le formulaire ou par téléphone. Un conseiller vous accompagnera dans toutes les démarches.",
+  // },
 ];
 
 
