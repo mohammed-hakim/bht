@@ -42,7 +42,7 @@ const Footer = () => {
          {/* src="/images/xora.svg" */}
           <img src="/images/logo.svg" alt="Logo" className="w-32 mb-4" />
           <p className="text-sm text-gray-500 max-w-xs">
-            © {new Date().getFullYear()} EURL BHT Immobilier. Tous droits réservés.
+            © {new Date().getFullYear()} EURL BHK Immobilier. Tous droits réservés.
           </p>
         </div>
   

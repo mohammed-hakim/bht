@@ -314,14 +314,6 @@ export const testimonials = [
       "Une expérience client exceptionnelle. Les logements sont bien pensés, modernes et parfaitement situés.",
   },
   {
-    id: "1",
-    name: "Rachid Belkacem",
-    role: "Investisseur, Oran",
-    avatarUrl: "/images/testimonials/mark-erixon.png",
-    comment:
-      "J’ai trouvé exactement ce que je cherchais : un appartement de qualité dans un quartier calme et sécurisé.",
-  },
-  {
     id: "2",
     name: "Yasmine Amrane",
     role: "Médecin, Constantine",
@@ -344,14 +336,6 @@ export const testimonials = [
     avatarUrl: "/images/testimonials/jim-bradley.png",
     comment:
       "Un excellent rapport qualité-prix. Les logements offrent tout le confort moderne qu’on attend aujourd’hui.",
-  },
-  {
-    id: "5",
-    name: "Omar Khelifi",
-    role: "Pharmacien, Tizi Ouzou",
-    avatarUrl: "/images/testimonials/jim-bradley.png",
-    comment:
-      "Je recommande vivement. L’accompagnement était complet, et la résidence est superbe.",
   },
 ];
 let detaisImgs = [

@@ -75,7 +75,7 @@ const Contact = () => {
               Téléphone : <a href="tel:+213551234567" className="text-p1">+213 551 23 45 67</a>
             </p>
             <p className="text-sm text-white">
-              Email : <a href="mailto:contact@bht.dz" className="text-p1">contact@bht.dz</a>
+              Email : <a href="mailto:contact@bhk.dz" className="text-p1">contact@bhk.dz</a>
             </p>
           </div>
   

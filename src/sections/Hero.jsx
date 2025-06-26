@@ -22,7 +22,7 @@ const Hero = () => {
             </LinkScroll>
           </div>
 
-          <div className="z-[-1] absolute -top-32 left-[calc(50%)] w-[700px] pointer-events-none hero-img_res max-h-[120vh] overflow-hidden">
+          <div className="z-[-1] absolute -top-32 left-[calc(50%)] w-[700px] pointer-events-none hero-img_res max-md:max-h-[120vh] overflow-hidden">
             <img
               src="/images/new/hero-bati.png"
               className="size-700 max-lg:h-auto "

@@ -21,7 +21,7 @@ const Features = () => {
     }
   }, [location]);
   return (
-    <section>
+    <section className="md:mt-[120]" >
 
  
     {/* <section>
