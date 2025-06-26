@@ -229,6 +229,7 @@ export const faq = [
     answer:
       "Nos résidences sont idéalement situées, proches des transports, commerces, écoles et services essentiels pour un cadre de vie agréable.",
   },
+  
   // {
   //   id: "6",
   //   question: "Puis-je visiter un logement témoin ?",
